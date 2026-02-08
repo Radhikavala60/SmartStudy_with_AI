@@ -48,3 +48,48 @@ Example:
 ---
 
 ## 🗂️ Project Structure
+
+---
+
+## 🧾 Database Design (SQLite)
+**Table Name:** `study`
+
+| Column Name | Data Type |
+|------------|----------|
+| id | INTEGER (Primary Key) |
+| subject | TEXT |
+| hours | INTEGER |
+| priority | TEXT |
+
+---
+
+## 🔄 Application Workflow
+1. User enters subject name, study hours, and priority
+2. Data is stored in SQLite database
+3. Application retrieves stored data
+4. AI logic analyzes the input
+5. Smart study suggestion is displayed to the user
+
+---
+
+## 📸 Screenshots
+Screenshots of the application are available in the `screenshots/` folder.
+
+Examples:
+- App Launch Screen
+- Add Study Data Screen
+- AI Suggestion Output
+- Stored Data List
+
+---
+
+## ▶️ How to Run the Project
+1. Install Flutter SDK
+2. Connect an Android device or start an emulator
+3. Clone this repository
+4. Run the following commands:
+
+```bash
+flutter pub get
+flutter run
+
