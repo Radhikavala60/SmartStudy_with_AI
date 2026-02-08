@@ -1,1 +1,50 @@
-# SmartStudy_with_AI
+# 📘 Smart Study With AI
+
+## 📌 Project Overview
+**Smart Study With AI** is a Flutter-based mobile application designed to help students manage their study plans efficiently using smart, AI-based suggestions.  
+The application uses **local data storage (SQLite)** to store study-related data such as subjects, study hours, and priority levels, and then applies rule-based AI logic to provide smart study recommendations.
+
+This project is developed as part of the **Applied Learning Activity (ALA)** and is completed **individually**.
+
+---
+
+## 🎯 Objectives of the Project
+- To develop a Flutter application with local data storage
+- To implement CRUD operations (Store, Retrieve, Update)
+- To apply basic AI logic for smart decision-making
+- To understand SQLite integration in Flutter
+- To provide a simple and user-friendly study management system
+
+---
+
+## 🧠 What is “AI” in this Project?
+The AI in this project is **rule-based intelligence**, where user input data is analyzed and smart study suggestions are generated based on predefined conditions such as:
+- Subject priority
+- Study hours
+
+Example:
+- If priority is **High** and study hours are **low**, the app suggests giving more focus to that subject.
+
+---
+
+## 🛠️ Technologies Used
+- **Flutter** – UI development
+- **Dart** – Programming language
+- **SQLite (sqflite)** – Local database
+- **Android Studio / VS Code** – Development tools
+- **GitHub** – Version control
+
+---
+
+## 📱 Application Features
+- Add study subjects
+- Enter study hours
+- Set priority (High / Medium / Low)
+- Store data locally using SQLite
+- Retrieve stored study data
+- Generate AI-based smart study suggestions
+- Persistent data storage (data remains after app restart)
+
+---
+
+## 🗂️ Project Structure
